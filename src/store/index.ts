@@ -2,39 +2,57 @@
 /* eslint-disable no-shadow */
 import { createStore } from 'vuex';
 
-type Todo = {
-    id: number,
-    complete: boolean,
-    title: string,
+type product = {
+    name: string,
+    price: number,
 }
 
 type State = {
-    todoList: Array<Todo>
+    products: Array<product>
 }
 
-const state: State = {
-  todoList: [],
-};
+const state= {
+    products:[
+         {
+          name:"products 1",
+          price:100
+         },
+         {
+          name:"products 1",
+          price:100
+         },
+         {
+          name:"products 1",
+          price:100
+         }
+    ]
+  }
 
 const mutations = {
-  createTodo(state: State, todo: Todo) {
-    state.todoList.push({
-      id: todo.id,
-      complete: todo.complete,
-      title: todo.title,
-    });
-  },
-  editTodo(state: State, todo: Todo) {
-    const index = state.todoList.findIndex(
-      (item) => item.id === todo.id,
-    );
-    state.todoList[index] = todo;
-  },
-  removeTodo(state: State, id: number) {
-    state.todoList = state.todoList.filter(
-      (item) => item.id !== id,
-    );
-  },
+ reducePrice: function (state: State,payload : any) {
+ return state.products.forEach(product => {
+
+ return product.price+=payload;
+
+ })
+
+ }
 };
 
-export const store = createStore({ state, mutations });
+
+const getters = {
+ productCount(state: State) {
+ return state.products.length
+ }
+};
+
+
+const actions = {
+  reducePrice: (context: any ,payload: any ) => {
+  return context.commit('reducePrice',payload)
+  }
+}
+
+
+
+export const store = createStore({ state, mutations,getters,actions});
