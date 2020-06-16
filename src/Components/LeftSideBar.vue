@@ -9,7 +9,7 @@
 		name:"LeftSideBar",
 		data () {
           
-		}
+		},
 		methods:{
 			showMenu: function () {
 				//alert("I am going to toggle some thing")
