@@ -10,7 +10,7 @@
           >
             <!-- LOGO -->
             <div class="my-4">
-              <img src="Assets/Grouplooo.svg">
+              <img src="images/Assets/Grouplooo.svg">
             </div>
             <!-- END LOGO -->
 
@@ -52,7 +52,7 @@
                     placeholder="Enter your email"
                   >
                   <img
-                    src="Assets/Vectormsg.svg"
+                    src="images/Assets/Vectormsg.svg"
                     class="absolute right-0 top-0 m-4"
                   >
                 </div>
@@ -99,57 +99,57 @@
           >
             <div class="absolute top-50 left-0   ">
               <img
-                src="Assets/join.svg"
+                src="images/Assets/join.svg"
                 class="object-fit"
               >
             </div>
 
             <div class="absolute   redeem ">
-              <img src="Assets/redeem.svg">
+              <img src="images/Assets/redeem.svg">
             </div>
 
             <div class="absolute   user ml-10 -mt-3 ">
-              <img src="Assets/user.svg">
+              <img src="images/Assets/user.svg">
             </div>
 
             <div class="absolute   bottom-0 left-0 ml-32 -mb-16">
-              <img src="Assets/gold.svg">
+              <img src="images/Assets/gold.svg">
             </div>
 
             <div class="absolute   woocommerce">
-              <img src="Assets/woocommerce.svg">
+              <img src="images/Assets/woocommerce.svg">
             </div>
 
             <div class="absolute   light">
-              <img src="Assets/light.svg">
+              <img src="images/Assets/light.svg">
             </div>
 
 
             <div class="absolute   lightning">
-              <img src="Assets/lightning.svg">
+              <img src="images/Assets/lightning.svg">
             </div>
 
             <div class="absolute   brown">
-              <img src="Assets/406.svg">
+              <img src="images/Assets/406.svg">
             </div>
 
             <div class="absolute   gift -mt-6 -ml-5">
-              <img src="Assets/gift.svg">
+              <img src="images/Assets/gift.svg">
             </div>
 
             <div class="absolute   cart ">
-              <img src="Assets/cart.svg">
+              <img src="images/Assets/cart.svg">
             </div>
 
             <div class="absolute   loyalty ">
-              <img src="Assets/loyalty.svg">
+              <img src="images/Assets/loyalty.svg">
             </div>
             <div class="absolute   discount ">
-              <img src="Assets/discount.svg">
+              <img src="images/Assets/discount.svg">
             </div>
 
             <div class="absolute   coupon ">
-              <img src="Assets/coupon.svg">
+              <img src="images/Assets/coupon.svg">
             </div>
           </div>
           <!-- END DISPLAY SECTION -->
