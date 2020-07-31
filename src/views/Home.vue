@@ -1,18 +1,17 @@
 <template>
- <div class="bg-gray-100">
-  <Header/>
-  <Container />
+ <div>
+  <Hero/>
  </div>
 </template>
 
 <script lang="ts">
-import Header from '../Components/Header.vue'
-import Container from '../Components/Container.vue'
+import Hero from '../Components/Hero.vue'
+
 export default {
-  name: 'Home',
+  name: 'Hero',
   components: {
-    Header,
-    Container
+    Hero,
+
   }
 };
 </script>

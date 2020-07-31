@@ -2,3 +2,85 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@font-face {
+  font-family: Circular;
+  src: url(/Circular/CircularStd.ttf) format("ttf");
+}
+
+.top-50 {
+  top:50px;
+}
+.w-700 {
+  width:700px;
+}
+
+.redeem {
+  left:29.4px;
+  top:270px;
+}
+
+.user {
+  left:340px;
+  top:240px;
+}
+.woocommerce {
+   left:440px;
+  top:40px;
+}
+.light {
+    left:475px; 
+    top:120px;
+}
+
+.lightning {
+    left:510px; 
+    top:200px;
+}
+.brown {
+    left:535px; 
+    top:270px;
+}
+
+.gift {
+      left:550px; 
+    top:240px;
+}
+
+.cart {
+      left:600px; 
+    top:410px;
+}
+.loyalty {
+  left:550px;
+  top:-10px;
+}
+.discount {
+  left:710px;
+  top:310px;
+}
+
+.coupon {
+    left:630px;
+  top:390px;
+}
+
+@screen lg {
+ .bg-white-custom {
+  background: #fff;
+ }
+}
+
+
+@responsive {
+  @variants hover, focus {
+
+.custom-bg {
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 16%, rgba(244,248,251,1) 39%, rgba(210,221,232,1) 71%);
+}
+
+
+}
+}
+

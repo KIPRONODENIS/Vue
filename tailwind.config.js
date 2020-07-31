@@ -1,16 +1,23 @@
 module.exports = {
-	theme: {
-		extend: {
-			colors: {
-				indigo: '#5c6ac4',
-				blue: '#007ace',
-				red: '#a41345',
-				dark:'#1d1f22',
-				purple:'#c8bbd2'
-			}
-		},
+  purge: [],
+  theme: {
 
-	},
-	variants: {},
-	plugins: [],
+    extend: {
+    	colors: {
+    		primary:'#4C51BF',
+    		secondary:'#d53f8c',
+    		dark:'#2D3748',
+        'gray-light':'#858C9F'
+    	},
+          	fontFamily: {
+             sans: ['Circular'],
+
+
+
+        },
+
+    },
+  },
+  variants: {},
+  plugins: [],
 }
